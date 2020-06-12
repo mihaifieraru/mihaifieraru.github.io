@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alin-Ionut Popa | Mihai Fieraru</title>
+    <link>https://mihaifieraru.github.io/author/alin-ionut-popa/</link>
+      <atom:link href="https://mihaifieraru.github.io/author/alin-ionut-popa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alin-Ionut Popa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Alin-Ionut Popa</title>
+      <link>https://mihaifieraru.github.io/author/alin-ionut-popa/</link>
+    </image>
+    
+    <item>
+      <title>Three-Dimensional Reconstruction of Human Interactions</title>
+      <link>https://mihaifieraru.github.io/publication/fieraru_2020_cvpr/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/fieraru_2020_cvpr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
