@@ -5,12 +5,28 @@
     <link>https://mihaifieraru.github.io/</link>
       <atom:link href="https://mihaifieraru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Mihai Fieraru</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mihai Fieraru</title>
       <link>https://mihaifieraru.github.io/</link>
     </image>
+    
+    <item>
+      <title>AIFit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training</title>
+      <link>https://mihaifieraru.github.io/publication/fieraru_2021_cvpr/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/fieraru_2021_cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Complex 3D Human Self-Contact</title>
+      <link>https://mihaifieraru.github.io/publication/fieraru_2021_aaai/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/fieraru_2021_aaai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Three-Dimensional Reconstruction of Human Interactions</title>
