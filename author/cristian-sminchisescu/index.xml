@@ -5,12 +5,20 @@
     <link>https://mihaifieraru.github.io/author/cristian-sminchisescu/</link>
       <atom:link href="https://mihaifieraru.github.io/author/cristian-sminchisescu/index.xml" rel="self" type="application/rss+xml" />
     <description>Cristian Sminchisescu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Cristian Sminchisescu</title>
       <link>https://mihaifieraru.github.io/author/cristian-sminchisescu/</link>
     </image>
+    
+    <item>
+      <title>REMIPS: Physically Consistent 3D Reconstruction of Multiple Interacting People under Weak Supervision</title>
+      <link>https://mihaifieraru.github.io/publication/fieraru_2021_neurips/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/fieraru_2021_neurips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AIFit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training</title>
