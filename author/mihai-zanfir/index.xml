@@ -5,12 +5,20 @@
     <link>https://mihaifieraru.github.io/author/mihai-zanfir/</link>
       <atom:link href="https://mihaifieraru.github.io/author/mihai-zanfir/index.xml" rel="self" type="application/rss+xml" />
     <description>Mihai Zanfir</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Mihai Zanfir</title>
       <link>https://mihaifieraru.github.io/author/mihai-zanfir/</link>
     </image>
+    
+    <item>
+      <title>Reconstructing Three-Dimensional Models of Interacting Humans</title>
+      <link>https://mihaifieraru.github.io/publication/fieraru_2023_tpami/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/fieraru_2023_tpami/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>REMIPS: Physically Consistent 3D Reconstruction of Multiple Interacting People under Weak Supervision</title>

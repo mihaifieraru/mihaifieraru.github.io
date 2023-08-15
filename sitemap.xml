@@ -3,47 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mihaifieraru.github.io/publication-type/3/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/alin-ionut-popa/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/authors/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/cristian-sminchisescu/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/elisabeta-oneata/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/mihai-fieraru/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/mihai-zanfir/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/publication_types/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/publication/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/publication/fieraru_2023_tpami/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/vlad-olaru/</loc>
+    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/andrei-zanfir/</loc>
+    <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/publication/kolotouros_2023_neurips/</loc>
+    <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/eduard-gabriel-bazavan/</loc>
+    <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/nikos-kolotouros/</loc>
+    <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mihaifieraru.github.io/author/thiemo-alldieck/</loc>
+    <lastmod>2023-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mihaifieraru.github.io/publication-type/1/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mihaifieraru.github.io/authors/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/author/cristian-sminchisescu/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mihaifieraru.github.io/author/eduard-bazavan/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/author/mihai-fieraru/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/author/mihai-zanfir/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/publication_types/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/publication/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,11 +108,6 @@
   </url>
   
   <url>
-    <loc>https://mihaifieraru.github.io/author/vlad-olaru/</loc>
-    <lastmod>2021-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mihaifieraru.github.io/publication/fieraru_2021_cvpr/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url>
@@ -70,16 +115,6 @@
   <url>
     <loc>https://mihaifieraru.github.io/author/silviu-cristian-pirlea/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/author/alin-ionut-popa/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mihaifieraru.github.io/author/elisabeta-oneata/</loc>
-    <lastmod>2021-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>

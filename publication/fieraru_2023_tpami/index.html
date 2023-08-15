@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Monocular estimation of three dimensional human self-contact is fundamental for detailed scene analysis including body language understanding and behaviour modeling. Existing 3d reconstruction methods do not focus on body regions in self-contact and consequently recover configurations that are either far from each other or self-intersecting, when they should just touch. This leads to perceptually incorrect estimates and limits impact in those very fine-grained analysis domains where detailed 3d models are expected to play an important role. To address such challenges we detect self-contact and design 3d losses to explicitly enforce it. Specifically, we develop a model for Self-Contact Prediction (SCP), that estimates the body surface signature of self-contact, leveraging the localization of self-contact in the image, during both training and inference. We collect two large datasets to support learning and evaluation: (1) HumanSC3D, an accurate 3d motion capture repository containing 1,032 sequences with 5,058 contact events and 1,246,487 ground truth 3d poses synchronized with images collected from multiple views, and (2) FlickrSC3D, a repository of 3,969 images, containing 25,297 surface-to-surface correspondences with annotated image spatial support. We also illustrate how more expressive 3d reconstructions can be recovered under self-contact signature constraints and present monocular detection of face-touch as one of the multiple applications made possible by more accurate self-contact models.">
+  <meta name="description" content="Understanding 3d human interactions is fundamental for fine-grained scene analysis and behavioural modeling. However, most of the existing models predict incorrect, lifeless 3d estimates, that miss the subtle human contact aspects--the essence of the event--and are of little use for detailed behavioral understanding. This paper addresses such issues with several contributions: (1) we introduce models for interaction signature estimation (ISP) encompassing contact detection, segmentation, and 3d contact signature prediction; (2) we show how such components can be leveraged to ensure contact consistency during 3d reconstruction; (3) we construct several large datasets for learning and evaluating 3d contact prediction and reconstruction methods; specifically, we introduce CHI3D, a lab-based accurate 3d motion capture dataset with 631 sequences containing  contact events,  ground truth 3d poses, as well as FlickrCI3D, a dataset of  images, with  processed pairs of people, and  facet-level surface correspondences. Finally, (4) we propose methodology for recovering the ground-truth pose and shape of interacting people in a controlled setup and (5) annotate all 3d interaction motions in CHI3D with textual descriptions. Motion data in multiple formats (GHUM and SMPLX parameters, Human3.6m 3d joints) is made available for research purposes at \url{https://ci3d.imar.ro}, together with an evaluation server and a public benchmark.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://mihaifieraru.github.io/publication/fieraru_2021_aaai/">
+  <link rel="alternate" hreflang="en-us" href="https://mihaifieraru.github.io/publication/fieraru_2023_tpami/">
 
   
 
@@ -255,7 +255,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://mihaifieraru.github.io/publication/fieraru_2021_aaai/">
+  <link rel="canonical" href="https://mihaifieraru.github.io/publication/fieraru_2023_tpami/">
 
   
   
@@ -270,15 +270,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Mihai Fieraru">
-  <meta property="og:url" content="https://mihaifieraru.github.io/publication/fieraru_2021_aaai/">
-  <meta property="og:title" content="Learning Complex 3D Human Self-Contact | Mihai Fieraru">
-  <meta property="og:description" content="Monocular estimation of three dimensional human self-contact is fundamental for detailed scene analysis including body language understanding and behaviour modeling. Existing 3d reconstruction methods do not focus on body regions in self-contact and consequently recover configurations that are either far from each other or self-intersecting, when they should just touch. This leads to perceptually incorrect estimates and limits impact in those very fine-grained analysis domains where detailed 3d models are expected to play an important role. To address such challenges we detect self-contact and design 3d losses to explicitly enforce it. Specifically, we develop a model for Self-Contact Prediction (SCP), that estimates the body surface signature of self-contact, leveraging the localization of self-contact in the image, during both training and inference. We collect two large datasets to support learning and evaluation: (1) HumanSC3D, an accurate 3d motion capture repository containing 1,032 sequences with 5,058 contact events and 1,246,487 ground truth 3d poses synchronized with images collected from multiple views, and (2) FlickrSC3D, a repository of 3,969 images, containing 25,297 surface-to-surface correspondences with annotated image spatial support. We also illustrate how more expressive 3d reconstructions can be recovered under self-contact signature constraints and present monocular detection of face-touch as one of the multiple applications made possible by more accurate self-contact models."><meta property="og:image" content="https://mihaifieraru.github.io/publication/fieraru_2021_aaai/featured.png">
-  <meta property="twitter:image" content="https://mihaifieraru.github.io/publication/fieraru_2021_aaai/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://mihaifieraru.github.io/publication/fieraru_2023_tpami/">
+  <meta property="og:title" content="Reconstructing Three-Dimensional Models of Interacting Humans | Mihai Fieraru">
+  <meta property="og:description" content="Understanding 3d human interactions is fundamental for fine-grained scene analysis and behavioural modeling. However, most of the existing models predict incorrect, lifeless 3d estimates, that miss the subtle human contact aspects--the essence of the event--and are of little use for detailed behavioral understanding. This paper addresses such issues with several contributions: (1) we introduce models for interaction signature estimation (ISP) encompassing contact detection, segmentation, and 3d contact signature prediction; (2) we show how such components can be leveraged to ensure contact consistency during 3d reconstruction; (3) we construct several large datasets for learning and evaluating 3d contact prediction and reconstruction methods; specifically, we introduce CHI3D, a lab-based accurate 3d motion capture dataset with 631 sequences containing  contact events,  ground truth 3d poses, as well as FlickrCI3D, a dataset of  images, with  processed pairs of people, and  facet-level surface correspondences. Finally, (4) we propose methodology for recovering the ground-truth pose and shape of interacting people in a controlled setup and (5) annotate all 3d interaction motions in CHI3D with textual descriptions. Motion data in multiple formats (GHUM and SMPLX parameters, Human3.6m 3d joints) is made available for research purposes at \url{https://ci3d.imar.ro}, together with an evaluation server and a public benchmark."><meta property="og:image" content="https://mihaifieraru.github.io/publication/fieraru_2023_tpami/featured.gif">
+  <meta property="twitter:image" content="https://mihaifieraru.github.io/publication/fieraru_2023_tpami/featured.gif"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-05-18T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-08-03T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-05-18T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-08-03T00:00:00&#43;00:00">
   
 
   
@@ -300,16 +300,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://mihaifieraru.github.io/publication/fieraru_2021_aaai/"
+    "@id": "https://mihaifieraru.github.io/publication/fieraru_2023_tpami/"
   },
-  "headline": "Learning Complex 3D Human Self-Contact",
+  "headline": "Reconstructing Three-Dimensional Models of Interacting Humans",
   
   "image": [
-    "https://mihaifieraru.github.io/publication/fieraru_2021_aaai/featured.png"
+    "https://mihaifieraru.github.io/publication/fieraru_2023_tpami/featured.gif"
   ],
   
-  "datePublished": "2021-05-18T00:00:00Z",
-  "dateModified": "2021-05-18T00:00:00Z",
+  "datePublished": "2023-08-03T00:00:00Z",
+  "dateModified": "2023-08-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -324,7 +324,7 @@
       "url": "https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Monocular estimation of three dimensional human self-contact is fundamental for detailed scene analysis including body language understanding and behaviour modeling. Existing 3d reconstruction methods do not focus on body regions in self-contact and consequently recover configurations that are either far from each other or self-intersecting, when they should just touch. This leads to perceptually incorrect estimates and limits impact in those very fine-grained analysis domains where detailed 3d models are expected to play an important role. To address such challenges we detect self-contact and design 3d losses to explicitly enforce it. Specifically, we develop a model for Self-Contact Prediction (SCP), that estimates the body surface signature of self-contact, leveraging the localization of self-contact in the image, during both training and inference. We collect two large datasets to support learning and evaluation: (1) HumanSC3D, an accurate 3d motion capture repository containing 1,032 sequences with 5,058 contact events and 1,246,487 ground truth 3d poses synchronized with images collected from multiple views, and (2) FlickrSC3D, a repository of 3,969 images, containing 25,297 surface-to-surface correspondences with annotated image spatial support. We also illustrate how more expressive 3d reconstructions can be recovered under self-contact signature constraints and present monocular detection of face-touch as one of the multiple applications made possible by more accurate self-contact models."
+  "description": "Understanding 3d human interactions is fundamental for fine-grained scene analysis and behavioural modeling. However, most of the existing models predict incorrect, lifeless 3d estimates, that miss the subtle human contact aspects--the essence of the event--and are of little use for detailed behavioral understanding. This paper addresses such issues with several contributions: (1) we introduce models for interaction signature estimation (ISP) encompassing contact detection, segmentation, and 3d contact signature prediction; (2) we show how such components can be leveraged to ensure contact consistency during 3d reconstruction; (3) we construct several large datasets for learning and evaluating 3d contact prediction and reconstruction methods; specifically, we introduce CHI3D, a lab-based accurate 3d motion capture dataset with 631 sequences containing  contact events,  ground truth 3d poses, as well as FlickrCI3D, a dataset of  images, with  processed pairs of people, and  facet-level surface correspondences. Finally, (4) we propose methodology for recovering the ground-truth pose and shape of interacting people in a controlled setup and (5) annotate all 3d interaction motions in CHI3D with textual descriptions. Motion data in multiple formats (GHUM and SMPLX parameters, Human3.6m 3d joints) is made available for research purposes at \\url{https://ci3d.imar.ro}, together with an evaluation server and a public benchmark."
 }
 </script>
 
@@ -342,7 +342,7 @@
 
 
 
-  <title>Learning Complex 3D Human Self-Contact | Mihai Fieraru</title>
+  <title>Reconstructing Three-Dimensional Models of Interacting Humans | Mihai Fieraru</title>
 
 </head>
 
@@ -524,12 +524,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>Learning Complex 3D Human Self-Contact</h1>
+  <h1>Reconstructing Three-Dimensional Models of Interacting Humans</h1>
 
   
 
@@ -557,7 +555,7 @@
     
       
     
-    May 2021
+    August 2023
   </span>
   
 
@@ -583,12 +581,8 @@
 
 
 
-  
 
 
-
-
-  
 
 
 
@@ -604,25 +598,22 @@
 
 
   
+    
+  
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/fieraru_2021_aaai/Fieraru_2021_AAAI.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2308.01854.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fieraru_2021_aaai/cite.bib">
-  Cite
-</button>
 
 
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="http://vision.imar.ro/sc3d" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://ci3d.imar.ro/" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -642,9 +633,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 209px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 400px; max-height: 400px;">
   <div style="position: relative">
-    <img src="/publication/fieraru_2021_aaai/featured_hube0718c4c0a7e1c81778c9a1891a80a4_406905_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/fieraru_2023_tpami/featured.gif" alt="" class="featured-image">
     
   </div>
 </div>
@@ -655,7 +646,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Monocular estimation of three dimensional human self-contact is fundamental for detailed scene analysis including body language understanding and behaviour modeling. Existing 3d reconstruction methods do not focus on body regions in self-contact and consequently recover configurations that are either far from each other or self-intersecting, when they should just touch. This leads to perceptually incorrect estimates and limits impact in those very fine-grained analysis domains where detailed 3d models are expected to play an important role. To address such challenges we detect self-contact and design 3d losses to explicitly enforce it. Specifically, we develop a model for Self-Contact Prediction (SCP), that estimates the body surface signature of self-contact, leveraging the localization of self-contact in the image, during both training and inference. We collect two large datasets to support learning and evaluation: (1) HumanSC3D, an accurate 3d motion capture repository containing 1,032 sequences with 5,058 contact events and 1,246,487 ground truth 3d poses synchronized with images collected from multiple views, and (2) FlickrSC3D, a repository of 3,969 images, containing 25,297 surface-to-surface correspondences with annotated image spatial support. We also illustrate how more expressive 3d reconstructions can be recovered under self-contact signature constraints and present monocular detection of face-touch as one of the multiple applications made possible by more accurate self-contact models.</p>
+    <p class="pub-abstract">Understanding 3d human interactions is fundamental for fine-grained scene analysis and behavioural modeling. However, most of the existing models predict incorrect, lifeless 3d estimates, that miss the subtle human contact aspects&ndash;the essence of the event&ndash;and are of little use for detailed behavioral understanding. This paper addresses such issues with several contributions: (1) we introduce models for interaction signature estimation (ISP) encompassing contact detection, segmentation, and 3d contact signature prediction; (2) we show how such components can be leveraged to ensure contact consistency during 3d reconstruction; (3) we construct several large datasets for learning and evaluating 3d contact prediction and reconstruction methods; specifically, we introduce CHI3D, a lab-based accurate 3d motion capture dataset with 631 sequences containing  contact events,  ground truth 3d poses, as well as FlickrCI3D, a dataset of  images, with  processed pairs of people, and  facet-level surface correspondences. Finally, (4) we propose methodology for recovering the ground-truth pose and shape of interacting people in a controlled setup and (5) annotate all 3d interaction motions in CHI3D with textual descriptions. Motion data in multiple formats (GHUM and SMPLX parameters, Human3.6m 3d joints) is made available for research purposes at \url{https://ci3d.imar.ro}, together with an evaluation server and a public benchmark.</p>
     
 
     
@@ -667,8 +658,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -679,18 +670,6 @@
     <div class="d-md-none space-below"></div>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21), 2021</em></div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -717,7 +696,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://mihaifieraru.github.io/publication/fieraru_2021_aaai/&amp;text=Learning%20Complex%203D%20Human%20Self-Contact" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://mihaifieraru.github.io/publication/fieraru_2023_tpami/&amp;text=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -730,7 +709,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://mihaifieraru.github.io/publication/fieraru_2021_aaai/&amp;t=Learning%20Complex%203D%20Human%20Self-Contact" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://mihaifieraru.github.io/publication/fieraru_2023_tpami/&amp;t=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -743,7 +722,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Learning%20Complex%203D%20Human%20Self-Contact&amp;body=https://mihaifieraru.github.io/publication/fieraru_2021_aaai/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans&amp;body=https://mihaifieraru.github.io/publication/fieraru_2023_tpami/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -756,7 +735,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://mihaifieraru.github.io/publication/fieraru_2021_aaai/&amp;title=Learning%20Complex%203D%20Human%20Self-Contact" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://mihaifieraru.github.io/publication/fieraru_2023_tpami/&amp;title=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -769,7 +748,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Learning%20Complex%203D%20Human%20Self-Contact%20https://mihaifieraru.github.io/publication/fieraru_2021_aaai/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans%20https://mihaifieraru.github.io/publication/fieraru_2023_tpami/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -782,7 +761,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://mihaifieraru.github.io/publication/fieraru_2021_aaai/&amp;title=Learning%20Complex%203D%20Human%20Self-Contact" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://mihaifieraru.github.io/publication/fieraru_2023_tpami/&amp;title=Reconstructing%20Three-Dimensional%20Models%20of%20Interacting%20Humans" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -886,7 +865,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/fieraru_2023_tpami/">Reconstructing Three-Dimensional Models of Interacting Humans</a></li>
+      <li><a href="/publication/fieraru_2021_aaai/">Learning Complex 3D Human Self-Contact</a></li>
       
       <li><a href="/publication/fieraru_2020_cvpr/">Three-Dimensional Reconstruction of Human Interactions</a></li>
       

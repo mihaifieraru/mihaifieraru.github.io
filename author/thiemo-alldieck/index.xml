@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thiemo Alldieck | Mihai Fieraru</title>
+    <link>https://mihaifieraru.github.io/author/thiemo-alldieck/</link>
+      <atom:link href="https://mihaifieraru.github.io/author/thiemo-alldieck/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thiemo Alldieck</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mihaifieraru.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Thiemo Alldieck</title>
+      <link>https://mihaifieraru.github.io/author/thiemo-alldieck/</link>
+    </image>
+    
+    <item>
+      <title>DreamHuman: Animatable 3D Avatars from Text</title>
+      <link>https://mihaifieraru.github.io/publication/kolotouros_2023_neurips/</link>
+      <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://mihaifieraru.github.io/publication/kolotouros_2023_neurips/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
